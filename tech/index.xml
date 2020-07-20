@@ -12,12 +12,42 @@
     
     
     <item>
+      <title>3D printing projects</title>
+      <link>https://jackieloven.com/tech/3d_printing/</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/tech/3d_printing/</guid>
+      <description>Zu I invented &amp;ldquo;zu&amp;rdquo;, a 3D printed item to keep your earphones from tangling. It can hold any earphone size and fits in your pocket!
+Here&amp;rsquo;s an 8-second video to show you how zu works.
+Plus, zu is printed with quality ABS plastic and can withstand heavy use.   I created zu at Y-Hack, a hackathon at Yale. I brought my 3D printer (Solidoodle 2) and spent the allotted 24 hours prototyping in SketchUp.</description>
+    </item>
+    
+    <item>
       <title>What is the real hardness of glass?</title>
       <link>https://jackieloven.com/tech/glass/</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jackieloven.com/tech/glass/</guid>
-      <description>Test</description>
+      <description>Introduction The glass on your cell phone needs to be hard enough to withstand daily life: it shouldn&amp;rsquo;t be scratched by your keys in your pocket, and it shouldn&amp;rsquo;t dent when dropped from a couple feet. Regardless of how we manufacture glass in an attempt to make it the right hardness, we need a way to measure its hardness.
+Today, that&amp;rsquo;s mostly done by microindentation. A microindenter machine uses a small pyramid-shaped diamond to put a small dent in the surface of glass:   Then, a person (usually an undergraduate researcher ☺) moves the microindenter&amp;rsquo;s reticle (two black lines) to either side of the indent, and records the distance given by the microindenter:   If she does this with both diagonals, she can average the two lengths and calculate the roughly square area of the indent.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jackieloven.com/tech/android_app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/tech/android_app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jackieloven.com/tech/arduino/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/tech/arduino/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jackieloven.com/tech/3d_printing/</loc>
+    <lastmod>2020-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jackieloven.com/</loc>
     <lastmod>2020-07-19T00:00:00+00:00</lastmod>
   </url>
@@ -15,6 +20,14 @@
   <url>
     <loc>https://jackieloven.com/tech/glass/</loc>
     <lastmod>2020-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jackieloven.com/tech/android_app/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jackieloven.com/tech/arduino/</loc>
   </url>
   
   <url>
