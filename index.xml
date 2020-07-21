@@ -12,17 +12,6 @@
     
     
     <item>
-      <title>3D printing projects</title>
-      <link>https://jackieloven.com/tech/3d_printing/</link>
-      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jackieloven.com/tech/3d_printing/</guid>
-      <description>Zu I invented &amp;ldquo;zu&amp;rdquo;, a 3D printed item to keep your earphones from tangling. It can hold any earphone size and fits in your pocket!
-Here&amp;rsquo;s an 8-second video to show you how zu works.
-Plus, zu is printed with quality ABS plastic and can withstand heavy use.   I created zu at Y-Hack, a hackathon at Yale. I brought my 3D printer (Solidoodle 2) and spent the allotted 24 hours prototyping in SketchUp.</description>
-    </item>
-    
-    <item>
       <title>What is the real hardness of glass?</title>
       <link>https://jackieloven.com/tech/glass/</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
@@ -33,21 +22,32 @@ Today, that&amp;rsquo;s mostly done by microindentation. A microindenter machine
     </item>
     
     <item>
-      <title></title>
+      <title>Android app</title>
       <link>https://jackieloven.com/tech/android_app/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://jackieloven.com/tech/android_app/</guid>
       <description></description>
     </item>
     
     <item>
-      <title></title>
+      <title>Arduino projects</title>
       <link>https://jackieloven.com/tech/arduino/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://jackieloven.com/tech/arduino/</guid>
-      <description></description>
+      <description>Breathalyzer The motivation for this project was to put people in control of their safety: ideally, the user clips the Arduino onto his car&amp;rsquo;s sun visor, so it is nearby when he enters his car. It would prompt him to breathe into it when (for example) it&amp;rsquo;s late at night and displays a different LED color depending on his blood-alcohol content. Plus, this device is a lot cheaper than breathalyzers for sale today.</description>
+    </item>
+    
+    <item>
+      <title>3D printing projects</title>
+      <link>https://jackieloven.com/tech/3d_printing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/tech/3d_printing/</guid>
+      <description>Zu I invented &amp;ldquo;zu&amp;rdquo;, a 3D printed item to keep your earphones from tangling. It can hold any earphone size and fits in your pocket!
+Here&amp;rsquo;s an 8-second video to show you how zu works.
+Plus, zu is printed with quality ABS plastic and can withstand heavy use.   I created zu at Y-Hack, a hackathon at Yale. I brought my 3D printer (Solidoodle 2) and spent the allotted 24 hours prototyping in SketchUp.</description>
     </item>
     
   </channel>
