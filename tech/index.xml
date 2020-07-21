@@ -6,7 +6,7 @@
     <description>Recent content in Teches on Jackie Loven</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jackieloven.com/tech/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,20 +14,11 @@
     <item>
       <title>What is the real hardness of glass?</title>
       <link>https://jackieloven.com/tech/glass/</link>
-      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jackieloven.com/tech/glass/</guid>
       <description>Introduction The glass on your cell phone needs to be hard enough to withstand daily life: it shouldn&amp;rsquo;t be scratched by your keys in your pocket, and it shouldn&amp;rsquo;t dent when dropped from a couple feet. Regardless of how we manufacture glass in an attempt to make it the right hardness, we need a way to measure its hardness.
 Today, that&amp;rsquo;s mostly done by microindentation. A microindenter machine uses a small pyramid-shaped diamond to put a small dent in the surface of glass:   Then, a person (usually an undergraduate researcher ☺) moves the microindenter&amp;rsquo;s reticle (two black lines) to either side of the indent, and records the distance given by the microindenter:   If she does this with both diagonals, she can average the two lengths and calculate the roughly square area of the indent.</description>
-    </item>
-    
-    <item>
-      <title>Android app</title>
-      <link>https://jackieloven.com/tech/android_app/</link>
-      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://jackieloven.com/tech/android_app/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -40,9 +31,19 @@ Today, that&amp;rsquo;s mostly done by microindentation. A microindenter machine
     </item>
     
     <item>
+      <title>Nurse Alert</title>
+      <link>https://jackieloven.com/tech/android_app/</link>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/tech/android_app/</guid>
+      <description>In hospitals today, patients only get one button with which to call their nurse. The nurse has no idea if the button was pressed by accident or if it&amp;rsquo;s a real emergency. Maybe the patient just has a question.
+Nurse Alert is an Android app. Each patient has a tablet and their nurse has a tablet. The patient uses our simple interface to select where they feel pain, if they need to go to the bathroom, or if they have a question.</description>
+    </item>
+    
+    <item>
       <title>3D printing projects</title>
       <link>https://jackieloven.com/tech/3d_printing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
       
       <guid>https://jackieloven.com/tech/3d_printing/</guid>
       <description>Zu I invented &amp;ldquo;zu&amp;rdquo;, a 3D printed item to keep your earphones from tangling. It can hold any earphone size and fits in your pocket!
