@@ -47,6 +47,8 @@ li
 .author
 {
     color: #444;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 .author h1,
 .author h2,
@@ -56,7 +58,7 @@ li
 .author h6,
 .author p
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
 }
 .category
 {
@@ -93,6 +95,7 @@ div.content
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     color: #8b8b8b;
+    padding-top: 25px;
 }
 .error
 {
@@ -141,10 +144,12 @@ div.content
 {
     margin-top: 10px;
     margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .intro
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     color: #777;
 }
@@ -193,7 +198,7 @@ h3.intro
 
     text-decoration: none;
 
-    color: #966 !important;
+    color: #3755ca !important;
 }
 .meta
 {
@@ -235,7 +240,7 @@ section.meta {
 }
 .title
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 
     color: #555;
