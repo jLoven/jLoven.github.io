@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teches on Jackie Loven</title>
+    <link>https://jackieloven.com/tech/</link>
+    <description>Recent content in Teches on Jackie Loven</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 16 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jackieloven.com/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What is the real hardness of glass?</title>
+      <link>https://jackieloven.com/tech/glass/</link>
+      <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/tech/glass/</guid>
+      <description>Introduction The glass on your cell phone needs to be hard enough to withstand daily life: it shouldn&amp;rsquo;t be scratched by your keys in your pocket, and it shouldn&amp;rsquo;t dent when dropped from a couple feet. Regardless of how we manufacture glass in an attempt to make it the right hardness, we need a way to measure its hardness.
+Today, that&amp;rsquo;s mostly done by microindentation. A microindenter machine uses a small pyramid-shaped diamond to put a small dent in the surface of glass:   Then, a person (usually an undergraduate researcher ☺) moves the microindenter&amp;rsquo;s reticle (two black lines) to either side of the indent, and records the distance given by the microindenter:   If she does this with both diagonals, she can average the two lengths and calculate the roughly square area of the indent.</description>
+    </item>
+    
+    <item>
+      <title>Arduino projects</title>
+      <link>https://jackieloven.com/tech/arduino/</link>
+      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/tech/arduino/</guid>
+      <description>Breathalyzer The motivation for this project was to put people in control of their safety: ideally, the user clips the Arduino onto his car&amp;rsquo;s sun visor, so it is nearby when he enters his car. It would prompt him to breathe into it when (for example) it&amp;rsquo;s late at night and displays a different LED color depending on his blood-alcohol content. Plus, this device is a lot cheaper than breathalyzers for sale today.</description>
+    </item>
+    
+    <item>
+      <title>Nurse Alert</title>
+      <link>https://jackieloven.com/tech/android_app/</link>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/tech/android_app/</guid>
+      <description>In hospitals today, patients only get one button with which to call their nurse. The nurse has no idea if the button was pressed by accident or if it&amp;rsquo;s a real emergency. Maybe the patient just has a question.
+Nurse Alert is an Android app. Each patient has a tablet and their nurse has a tablet. The patient uses our simple interface to select where they feel pain, if they need to go to the bathroom, or if they have a question.</description>
+    </item>
+    
+    <item>
+      <title>3D printing projects</title>
+      <link>https://jackieloven.com/tech/3d_printing/</link>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/tech/3d_printing/</guid>
+      <description>Zu I invented &amp;ldquo;zu&amp;rdquo;, a 3D printed item to keep your earphones from tangling. It can hold any earphone size and fits in your pocket!
+Here&amp;rsquo;s an 8-second video to show you how zu works.
+Plus, zu is printed with quality ABS plastic and can withstand heavy use.   I created zu at Y-Hack, a hackathon at Yale. I brought my 3D printer (Solidoodle 2) and spent the allotted 24 hours prototyping in SketchUp.</description>
+    </item>
+    
+  </channel>
+</rss>

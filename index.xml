@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jackie Loven</title>
+    <link>https://jackieloven.com/</link>
+    <description>Recent content on Jackie Loven</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jackieloven.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acrylic on canvas</title>
+      <link>https://jackieloven.com/art/acrylic_on_canvas/</link>
+      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/art/acrylic_on_canvas/</guid>
+      <description>See more of my recent art (and better photos!) on my Instagram @jackie.loven Lots of my paintings and prints are for sale on my Etsy shop.
+Enjoy!  Wineglasses and fruit, 2020, all for sale  Through my window, 2020, 48&amp;quot;x48&amp;rdquo;  Cheetos Puffs, 2020, 8&amp;quot;x10&amp;rdquo;, prints for sale  Wineglasses, 2020, for sale  Signed album covers (Bahamas, Electric Guest, Magic City Hippies, The Palms, Bay Ledges), 2018-2020  Sleeping cat card, 2019  Bep, 2020.</description>
+    </item>
+    
+    <item>
+      <title>Glassblowing</title>
+      <link>https://jackieloven.com/art/glassblowing/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/art/glassblowing/</guid>
+      <description>Pitcher and vases, 2019  Me finishing up a pitcher, 2018  Organic shapes and small vase, 2020  Pitcher made from scraps of glass found around the studio, 2019  Tiny pitcher, 2019  </description>
+    </item>
+    
+    <item>
+      <title>Torchwork</title>
+      <link>https://jackieloven.com/art/torchwork/</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/art/torchwork/</guid>
+      <description>&amp;ldquo;Rio&amp;rdquo;, a commission of a family dog ornament for a friend, 2019  &amp;ldquo;See no evil, hear no evil, speak no evil&amp;rdquo; monkeys, 2019  Turtle with lens back, 2019  Small friends, including Bep, 2020.  </description>
+    </item>
+    
+    <item>
+      <title>Calligraphy</title>
+      <link>https://jackieloven.com/art/calligraphy/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/art/calligraphy/</guid>
+      <description>Matt and Jen&amp;rsquo;s BnB, a commission for a friend, 2018  Envelope for a card, 2019  Valentine&amp;rsquo;s Day cards, 2015  Personal card for a new father, 2019.  Cocktail menu, 2019.  Thank you poster, 2017.  </description>
+    </item>
+    
+    <item>
+      <title>Watercolors</title>
+      <link>https://jackieloven.com/art/watercolors/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/art/watercolors/</guid>
+      <description>San Francisco, 2015  Brooklyn, 2014  Painted Ladies, a commission for a friend, 2015  Beside the Point, a commission for a friend, 2015.  How we do late night Louie&amp;rsquo;s, 2015.  </description>
+    </item>
+    
+    <item>
+      <title>What is the real hardness of glass?</title>
+      <link>https://jackieloven.com/tech/glass/</link>
+      <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/tech/glass/</guid>
+      <description>Introduction The glass on your cell phone needs to be hard enough to withstand daily life: it shouldn&amp;rsquo;t be scratched by your keys in your pocket, and it shouldn&amp;rsquo;t dent when dropped from a couple feet. Regardless of how we manufacture glass in an attempt to make it the right hardness, we need a way to measure its hardness.
+Today, that&amp;rsquo;s mostly done by microindentation. A microindenter machine uses a small pyramid-shaped diamond to put a small dent in the surface of glass:   Then, a person (usually an undergraduate researcher ☺) moves the microindenter&amp;rsquo;s reticle (two black lines) to either side of the indent, and records the distance given by the microindenter:   If she does this with both diagonals, she can average the two lengths and calculate the roughly square area of the indent.</description>
+    </item>
+    
+    <item>
+      <title>Arduino projects</title>
+      <link>https://jackieloven.com/tech/arduino/</link>
+      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/tech/arduino/</guid>
+      <description>Breathalyzer The motivation for this project was to put people in control of their safety: ideally, the user clips the Arduino onto his car&amp;rsquo;s sun visor, so it is nearby when he enters his car. It would prompt him to breathe into it when (for example) it&amp;rsquo;s late at night and displays a different LED color depending on his blood-alcohol content. Plus, this device is a lot cheaper than breathalyzers for sale today.</description>
+    </item>
+    
+    <item>
+      <title>Nurse Alert</title>
+      <link>https://jackieloven.com/tech/android_app/</link>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/tech/android_app/</guid>
+      <description>In hospitals today, patients only get one button with which to call their nurse. The nurse has no idea if the button was pressed by accident or if it&amp;rsquo;s a real emergency. Maybe the patient just has a question.
+Nurse Alert is an Android app. Each patient has a tablet and their nurse has a tablet. The patient uses our simple interface to select where they feel pain, if they need to go to the bathroom, or if they have a question.</description>
+    </item>
+    
+    <item>
+      <title>3D printing projects</title>
+      <link>https://jackieloven.com/tech/3d_printing/</link>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jackieloven.com/tech/3d_printing/</guid>
+      <description>Zu I invented &amp;ldquo;zu&amp;rdquo;, a 3D printed item to keep your earphones from tangling. It can hold any earphone size and fits in your pocket!
+Here&amp;rsquo;s an 8-second video to show you how zu works.
+Plus, zu is printed with quality ABS plastic and can withstand heavy use.   I created zu at Y-Hack, a hackathon at Yale. I brought my 3D printer (Solidoodle 2) and spent the allotted 24 hours prototyping in SketchUp.</description>
+    </item>
+    
+  </channel>
+</rss>

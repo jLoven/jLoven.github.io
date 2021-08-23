@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="Jackie Loven: product manager, artist, coder">
+<meta name="keywords" content="Jackie,Loven">
+
+<title>
+  Jackie Loven - Arduino projects 
+</title>
+
+<meta name="generator" content="Hugo 0.74.2" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link rel="stylesheet" href="https://jackieloven.com/css/main.css">
+<link rel="stylesheet" href="https://jackieloven.com/css/custom.css">
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body lang="en-US">
+<div class="container">
+
+
+<header class="row text-left title">
+  <h1 class="title">Arduino projects</h1>
+</header>
+<section id="category-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+        PUBLISHED ON SEP 15, 2015 
+      
+    </h6>
+  </div>
+  
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 content">
+    
+    <nav id="TableOfContents"></nav>
+    
+    <h1 id="breathalyzer">Breathalyzer</h1>
+<p>The motivation for this project was to put people in control of their safety: ideally, the user clips the Arduino onto his car&rsquo;s sun visor, so it is nearby when he enters his car. It would prompt him to breathe into it when (for example) it&rsquo;s late at night and displays a different LED color depending on his blood-alcohol content. Plus, this device is a lot cheaper than breathalyzers for sale today.
+ </p>
+<p> </p>
+<p><img src="/img/arduino1.png?style=center" alt="Photograph of the breadboard testing setup for the bluetooth LightBlue Bean and ethanol sensor.">
+ </p>
+<p> </p>
+<p>As is, the user presses a button on the side of the device case to activate the ethanol sensor. The sensor takes a minute to heat up, and while it does so it cycles through the LED colors: red, blue, and green. Ideally, it would not cycle because it tells the user they are varying levels of drunk before settling, so I would like to be able to heat up the sensor in a more timely manner.
+ </p>
+<p> </p>
+<p><img src="/img/arduino2.png?style=center" alt="Photograph of the final setup for the Arduino, button, and ethanol sensor.">
+ </p>
+<p> </p>
+<p>We calibrated the sensor with alcohol. We researched legal limits for alcohol and assigned sensor colors to those limits (red means a BAC for which it is illegal to drive, blue means a BAC for which it is legal to drive, and green means no alcohol was detected).
+ </p>
+<p> </p>
+<p><img src="/img/arduino3.png?style=center" alt="Photograph of the three colors of ethanol sensor levels.">
+ </p>
+<p> </p>
+<p>In the future, I would like to add voice to the device to tell the user whether they should call a cab or drive home. <a href="https://github.com/jLoven/breathalyzer"  target="_blank" >Check it out on Github here</a>.</p>
+<h1 id="arduino-rickroller">Arduino Rickroller</h1>
+<p>Another Arduino project I worked on was a device to Rickroll entrants to a room.</p>
+<p>It uses an infrared motion sensor to detect movement, and when it detects movement, it uses a hardcoded sequence of tones and note durations to play a decent approximation of Rick Astley&rsquo;s famous musical piece.</p>
+<p>I worked on this project with Owen Lynch. He made the tonal approximations and we worked together to set up the hardware.</p>
+<p>We have yet to find a worthy permanent location for the Arduino Rickroll device.</p>
+<p><a href="https://github.com/jLoven/arduino_rickroll"  target="_blank" >Check it out on Github here</a>.</p>
+
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+<section id="menu-pane" class="row menu text-center">
+  
+  
+  <span><a class="menu-item" href="https://jackieloven.com/tech/android_app/">&lt; prev | </a></span>
+  
+  
+  <span><a class="menu-item" href="/tech">tech</a></span>
+  
+  
+  <span><a class="menu-item" href="https://jackieloven.com/tech/glass/"> | next &gt;</a></span>
+  
+  
+  <h4 class="text-center"><a class="menu-item" href="https://jackieloven.com">home</a></h4>
+</section>
+
+
+
+<footer class="row text-center footer">
+  <hr />
+  <section id="social-pane" class="text-center social">
+  
+  
+  
+  
+  
+  
+  
+  <a href="https://github.com/jLoven" aria-label="Github" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+  
+  
+  <a href="https://instagram.com/jackie.loven" aria-label="Instagram" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+  
+  
+  <a href="https://linkedin.com/in/jackieloven" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a href="https://youtube.com/channel/UCrh1Mqt8KIBxvnRyFQdVeyQ" aria-label="Youtube" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a href="mailto:jackieloven@gmail.com" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+  
+  
+  
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Jackie Loven",
+  "url": "",
+  "sameAs": [
+    
+    
+    
+    
+    
+    
+    "https://github.com/jLoven",
+    "https://instagram.com/jackie.loven",
+    "https://linkedin.com/in/jackieloven",
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    "https://youtube.com/user/UCrh1Mqt8KIBxvnRyFQdVeyQ",
+    
+    
+    
+    
+    ,
+    ""
+  ]
+}
+</script>
+
+
+  
+  <h6 class="text-center copyright">© 2014-2021. Jackie Loven. All Rights Reserved.</h6>
+  
+      
+  
+</footer>
+
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+
+<script type="text/javascript">
+hljs.initHighlightingOnLoad();
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'XYZ', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
+
+

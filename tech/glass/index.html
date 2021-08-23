@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="Jackie Loven: product manager, artist, coder">
+<meta name="keywords" content="Jackie,Loven">
+
+<title>
+  Jackie Loven - What is the real hardness of glass? 
+</title>
+
+<meta name="generator" content="Hugo 0.74.2" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link rel="stylesheet" href="https://jackieloven.com/css/main.css">
+<link rel="stylesheet" href="https://jackieloven.com/css/custom.css">
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body lang="en-US">
+<div class="container">
+
+
+<header class="row text-left title">
+  <h1 class="title">What is the real hardness of glass?</h1>
+</header>
+<section id="category-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+        PUBLISHED ON JUL 16, 2017 
+      
+    </h6>
+  </div>
+  
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 content">
+    
+    <nav id="TableOfContents"></nav>
+    
+    <h1 id="introduction">Introduction</h1>
+<p>The glass on your cell phone needs to be hard enough to withstand daily life: it shouldn&rsquo;t be scratched by your keys in your pocket, and it shouldn&rsquo;t dent when dropped from a couple feet. Regardless of how we manufacture glass in an attempt to make it the right hardness, we need a way to measure its hardness.</p>
+<p>Today, that&rsquo;s mostly done by microindentation. A microindenter machine uses a small pyramid-shaped diamond to put a small dent in the surface of glass:
+ </p>
+<p> </p>
+<p><img src="/img/glass/fig1_indenter_process.png?style=center" alt="A figure showing a diamond microindenter tip creating a divot in a piece of glass.">
+ </p>
+<p> </p>
+<p>Then, a person (usually an undergraduate researcher ☺) moves the microindenter&rsquo;s reticle (two black lines) to either side of the indent, and records the distance given by the microindenter:
+ </p>
+<p> </p>
+<p><img src="/img/glass/fig2_reticle_method.png?style=center" alt="A figure showing the way researchers measure the distance between corners of glass indents.">
+ </p>
+<p> </p>
+<p>If she does this with both diagonals, she can average the two lengths and calculate the roughly square area of the indent. Then, she can find out the <a href="https://en.wikipedia.org/wiki/Vickers_hardness_test#Implementation"  target="_blank" >Vickers hardness value</a> of her glass; under the same load, a larger indent residual area means a softer glass. But she&rsquo;s deciding how big the indent is mostly by hand! She could use this reticle method on the same indent five minutes apart, thinking she is getting the same data, and instead she would get vastly different hardness values- do you even see a difference in the two measurements below? Me neither, but just this half a micron difference in measurements results in completely different hardness data.
+ </p>
+<p> </p>
+<p><img src="/img/glass/fig12_reticle_error.png?style=center" alt="A figure showing the imperceptible difference between two researchers&rsquo; indentation size measurements.">
+ </p>
+<p> </p>
+<p>Furthermore, her friend could measure the same indents and get different values. That&rsquo;s not replicable, and so it&rsquo;s not science! Also, some weird and unexplainable effects have been observed by glass hardness researchers, such as the indendation size effect (ISE), in which glass indented at smaller loads seems harder than the same glass indented at larger loads. There isn&rsquo;t a robust physical theory for this effect, but then again, we can&rsquo;t really trust the data we have from such a subjective method.</p>
+<p>If the glass researcher even makes an imperceptible error of 0.5 µm every time she uses the reticle (as shown in the previous image), she could report completely incorrect trends. We tried adding this tiny error to some hardness data reported by <a href="https://aip.scitation.org/doi/abs/10.1063/1.2985907?journalCode=jap"  target="_blank" >Gross and Tomozawa</a> and we &ldquo;found&rdquo; a reverse ISE- probably not what the glass community expects!</p>
+<p>But since Gross and Tomozawa measured their indents by hand (like every glass researcher does), we can&rsquo;t say they don&rsquo;t have this error in their data. Data collected by humans like this is impossible to draw conclusions from. We researched a lot of other sources of error in this method that haven&rsquo;t been discussed in current literature. Some of these sources of error are found in reticle calibration, user discretion, optical resolution, pincushioning, and pileup; they&rsquo;re discussed in way more detail in <a href="/papers/Loven_Glass_Hardness_Research.pdf" >our paper</a>.</p>
+<p>And now the undergraduate researcher&rsquo;s data doesn&rsquo;t really mean anything, and that&rsquo;s sad. So, if we want to characterize lots of glass compositions under lots of loads, and end up with repeatable measurements, how can we do that? <!-- raw HTML omitted -->  Take the human out of the hardness measurement!</p>
+<h1 id="methods-results">Methods/ Results</h1>
+<p>We tried a few things to get more repeatable measurements, and we even invented a new technique. We also found a lot of ways not to measure glass hardness&hellip;</p>
+<p>As a shortcut to get better images, we tried using a confocal scanning laser microscope (CLSM). It creates a 3D image of a sample’s surface topography (like the one below) by combining a series of images taken at different depths. It begins by auto-focusing at the indent bottom; it then takes a photo of only what is in focus, moves a bit higher, and takes another photo of what is in focus. It takes photos like this until it reaches the topmost feature of the sample, and then aggregates all the photos taken into a 3D scan of the indent. In the image below, different colors show different depths of the indent:
+ </p>
+<p> </p>
+<p><img src="/img/glass/fig5_sample_profile.png?style=center" alt="A figure showing a sample laser profiler image of an indent, with a color gradient between the highest and lowest surfaces of the sample.">
+ </p>
+<p> </p>
+<p>At the depth of the glass surface that is not indented, the indent residual area can be identified as a hole in the surface scan, (shown by the CLSM software in bright green below). Thus, there would be no confusion about where the indent edges were.
+ </p>
+<p> </p>
+<p><img src="/img/glass/fig6_CLSM_area.png?style=center" alt="A figure showing a sample laser profiler image of an indent, with the hole representing the indent shown in a bright color.">
+ </p>
+<p> </p>
+<p>End result for the user: CLSM is way more repeatable than the reticle method, because the same image analyzed at the same depth will produce the same indent area (just grab the length of the red scale bar in pixels, and calculate how much green area there is). It is also more accurate than the reticle method, because CLSM data is closer to atomic force microscopy (AFM, the industry standard for topography), as will be discussed later. AFM is very accurate but prohibitively slow for collecting data on lots of indents, so we just use it as a benchmark for other methods. However, CLSM couldn&rsquo;t accurately image indents made at loads below ~500 mN. CLSM also took a heck of a lot more time than the human-reticle method, and not every lab has a CLSM or the proprietary CLSM software (it&rsquo;s a pretty new technology). So, we needed to find a faster, more accessible method for repeatable glass hardness measurements.</p>
+<p>Every lab already has a computer and a camera. What if we could just use those materials? First, we started by looking at how other groups have used computers to process their indentation images. Groups that study metal hardness have used some basic computer vision techniques to pick out the sizes of their indents, because images of metal indents have a high contrast (metal specularly reflects light, so light doesn&rsquo;t bounce around inside the metal and make edges less distinct). High-contrast metal indents have a simple polygonal shape and images require little preprocessing. However, because light penetrates glass and leaves it in many directions, traditional glass microindentation images have very little contrast along indent edges.
+ </p>
+<p> </p>
+<p><img src="/img/glass/fig4_metal_contrast.png?style=center" alt="A figure showing the difference in image contrast between a glass indent (low contrast) and a metal indent (high contrast).">
+ </p>
+<p> </p>
+<p>Glass is also much more brittle than metal, and samples crack under the indenter tip for higher loads. You can&rsquo;t see these cracks if you just look at the sample with your eyes, but under the microscope, they&rsquo;re very large and can obscure the location of indent vertices. We had a hard time separating cracks from the actual indent, because they&rsquo;re a similar shade as the indent (humans have the same issue!):
+ </p>
+<p> </p>
+<p><img src="/img/glass/fig10_cracks.png?style=center" alt="A figure showing cracks in a glass indent.">
+ </p>
+<p> </p>
+<p>As it turns out, no other glass research groups have tried to analyze their images programmatically, so we were on our own.</p>
+<p>The glass images we had were too low in contrast to reliably pick out indent edges, even with significant image preprocessing. But if metal indents looked so nice and contrast-y, why couldn&rsquo;t we make glass indents like that, too? So, we used a metal sputterer and dumped over 200 nm of Au-Pd onto our glass indents (this is a lot more than the usual sub-10 nm that a sputterer is used for; I accidentally left a glass slide in a gold evaporator for ten minutes instead of one minute and it actually looked great ☺). The metal coating helped the glass reflect a lot more light, and increased the indent contrast significantly. Check it out:
+ </p>
+<p> </p>
+<p><img src="/img/glass/fig7_metallized_difference.png?style=center" alt="A figure showing more contrast in glass indents that was obtained when the glass was covered in a thin film of metal.">
+ </p>
+<p> </p>
+<p>To up our game a bit, we got a $250 microscope eyepiece camera that had higher resolution than our last one- on the scale of microscope cameras, this is dirt cheap. We photographed these metallized indents under a standard optical microscope and analyzed them with code we wrote. We wrote software using OpenCV&rsquo;s image processing library to do some preprocessing (increase contrast and better define the indent area), calculate the area of the indent contour in the image, and display it to the user in a bright color so the user can audit the results:
+ </p>
+<p> </p>
+<p><img src="/img/glass/fig9_identified_metal.png?style=center" alt="A figure showing the area of the glass indent that was determined from a higher contrast metallized glass sample.">
+ </p>
+<p> </p>
+<p>With the image analysis software we wrote, all a researcher has to do now is coat samples in metal (less than 10 min), take photos of the indents and a photo of a ruler with a standard lab camera (quicker than using a reticle on each), and run them through our image processing program. See the final code (ported from the original Python + OpenCV to a short MATLAB script for the typical researcher&rsquo;s ease of use) on <a href="https://github.com/jLoven/hardness_test_area_detection/blob/master/matlab/metal_indent_identifier.m"  target="_blank" >my Github</a>.</p>
+<p>Finally, to be sure that our methods of CLSM and metallization actually worked, we compared our data from each method to the industry standard of atomic force microscopy (AFM). AFM is the most accurate topography method we have, as it uses a tiny probe to touch the actual surface of a sample, so data is not affected by human judgment or a sample&rsquo;s appearance. An AFM scan is shown below:
+ </p>
+<p> </p>
+<p><img src="/img/glass/fig8_afm_scan.png?style=center" alt="A figure showing an AFM scan of an indent.">
+ </p>
+<p> </p>
+<p>AFM is really, really slow, so we only used it on a subset of the indents, and it&rsquo;s prohibitively time-consuming and expensive for glass analysis in general (the probe is really small and has to raster over a relatively enormous area to image one indent). However, anyone developing a new method or testing their existing method should test against AFM. We compared data from the actual shape of our indents, which isn&rsquo;t truly square- it is more of an <a href="https://en.wikipedia.org/wiki/Astroid"  target="_blank" >astroid</a> shape, called &ldquo;pincushioned&rdquo; area by glass researchers, because we felt this was more accurate. It better captures the way glass bounces back a bit after the indenter tip leaves (some elastic deformation), instead of assuming glass deforms and stops changing (purely plastic deformation), as is done when measuring indents as square. Here&rsquo;s how our pincushioned hardness data from the metallization method compared to pincushioned AFM hardness data:
+ </p>
+<p> </p>
+<p><img src="/img/glass/fig11_comparison_pincushion.png?style=center" alt="A graph showing the final data from this project, described below.">
+ </p>
+<p> </p>
+<p>Metallization data does not perfectly align with AFM data. But, two people analyzing the same metallized image will get the exact same results. This is a huge win for us! We developed a repeatable technique for glass hardness analysis in just a few months. Furthermore, at the smaller loads where human error is more influential, our method is even more effective than CLSM, which is highly subject to vibration and temperature fluctuation. Our method still needs some work (see the Discussion and Future Work sections) but just being able to compare data across different data sets will be a huge step forward for glass research (if you would believe it, no one agrees on the hardness of fused silica, and that&rsquo;s been studied in a hundred different studies).</p>
+<p>Interested in the nitty gritty details of how we arrived at these methods? Here&rsquo;s <a href="/papers/Loven_Glass_Hardness_Research_Lab_Notebook.pdf" >my lab notebook</a> from when I was developing the method. Warning: contains wild tales of data collection and some PG-13 language.</p>
+<h1 id="discussion">Discussion</h1>
+<p>Here is a section all about the problems with the methods we used and the data we got. For a way more detailed analysis of error, head over to <a href="/papers/Loven_Glass_Hardness_Research.pdf" >our paper</a>.</p>
+<p>One problem is that we used three fairly repeatable methods (AFM, CLSM, metallization) but none of them gave the same values. So which one is accurate, if any? Tough to tell.</p>
+<p>Another issue is that we got our most replicable data when we measured indent pincushioned area, instead of the area we could calculate from diagonals. This is because the diagonals are just not really well defined in optical images, and image processing techniques used to reduce noise in indent images also reduced definition in small features such as indent corners. So our metallization + code technique didn&rsquo;t work too well for getting square areas. But square areas might not even make that much sense- indent residual areas aren&rsquo;t square, so why are glass researchers comparing them that way? Better to compare their actual areas.</p>
+<p>Some error is introduced in other ways. Resolution of the camera, optical resolution of the microscope, and the wavelength of light itself limit our ability to measure indents (especially if they&rsquo;re small).</p>
+<p>Also, we did not observe an indentation size effect (ISE) in any method except the human-reticle method. Fishy? Yes. I have decided that if a glass group doesn&rsquo;t analyze their images programmatically, I do not trust their ISE observation. ☺</p>
+<h1 id="future-work">Future Work</h1>
+<p>We didn&rsquo;t have time and resources to explore all the avenues we wanted to explore. Let me know if you try/ have tried any of the following ideas!</p>
+<p>Metal is opaque to visible light. Glass is not. Instead of trying to coat glass with metal, which can alter the indent shape a bit, and is an extra step, what if we just images glass under light that it&rsquo;s mostly opaque to? I say &ldquo;mostly&rdquo; because if you pick a wavelength that glass is totally opaque to, then your standard microscope lens (made of glass) won&rsquo;t see the indent, as it won&rsquo;t transmit the light. We got IR and UV flashlights and were going to modify the eyepiece camera to remove its IR filter, but we ran out of time.</p>
+<p>Ideally, it would be great to have a metallization method that matches AFM data. Maybe a better camera, better optical microscope, and some more refinement on the image processing could help with this. We bounced the idea of using machine learning (BUZZWORD!) to look for the indent astroid shape based on photos of hundreds of indents. This might help preclude the need for all the image preprocessing to remove noise, if the program already knew what shape to look for, instead of our program needing to make it exceedingly obvious via binarization.</p>
+<p>We did all of the above work (primarily on soda-lime silicate microscope slides) so that we could eventually analyze the hardness of a different type of glass under different loads. So, a note about our actual hardness data- we did some other research into how roughness affects hardness (it doesn&rsquo;t affect hardness, but rougher glass cracks more easily under the same load) and how time affects indents (more time = more cracks). This research is very cool. However, we did not analyze our indents for water content (different water content = different properties) or pileup (the glass squirts out from under the indenter tip, piles up, and obscures indent edges). It would be cool to know how these phenomena affected our hardness data. Summers in Ithaca get really humid, and a certain undergraduate researcher did her best to keep the samples dessicated, but she couldn&rsquo;t do that on the walks between labs&hellip;</p>
+<h1 id="paper-unpublished">Paper (Unpublished)</h1>
+<p>Many thanks to Nicole Wiles, Shefford Baker, Owen Lynch, Odell Dotson, Philip Carubia, and Alison Rugar for guidance and support. This research was made possible by funding from NSF DMR-1120296 and Corning, Inc.</p>
+<p>Email me with questions/ comments! jackieloven [AT] gmail [DOT] com</p>
+<p><a href="/papers/Loven_Glass_Hardness_Research.pdf" >Paper</a></p>
+
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+<section id="menu-pane" class="row menu text-center">
+  
+  
+  <span><a class="menu-item" href="https://jackieloven.com/tech/arduino/">&lt; prev | </a></span>
+  
+  
+  <span><a class="menu-item" href="/tech">tech</a></span>
+  
+  
+  
+  <h4 class="text-center"><a class="menu-item" href="https://jackieloven.com">home</a></h4>
+</section>
+
+
+
+<footer class="row text-center footer">
+  <hr />
+  <section id="social-pane" class="text-center social">
+  
+  
+  
+  
+  
+  
+  
+  <a href="https://github.com/jLoven" aria-label="Github" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+  
+  
+  <a href="https://instagram.com/jackie.loven" aria-label="Instagram" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+  
+  
+  <a href="https://linkedin.com/in/jackieloven" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a href="https://youtube.com/channel/UCrh1Mqt8KIBxvnRyFQdVeyQ" aria-label="Youtube" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a href="mailto:jackieloven@gmail.com" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+  
+  
+  
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Jackie Loven",
+  "url": "",
+  "sameAs": [
+    
+    
+    
+    
+    
+    
+    "https://github.com/jLoven",
+    "https://instagram.com/jackie.loven",
+    "https://linkedin.com/in/jackieloven",
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    "https://youtube.com/user/UCrh1Mqt8KIBxvnRyFQdVeyQ",
+    
+    
+    
+    
+    ,
+    ""
+  ]
+}
+</script>
+
+
+  
+  <h6 class="text-center copyright">© 2014-2021. Jackie Loven. All Rights Reserved.</h6>
+  
+      
+  
+</footer>
+
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+
+<script type="text/javascript">
+hljs.initHighlightingOnLoad();
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'XYZ', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
+
+
